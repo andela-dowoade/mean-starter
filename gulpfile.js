@@ -6,7 +6,6 @@ var jade = require('gulp-jade');
 var imagemin = require('gulp-imagemin');
 var gutil = require('gulp-util');
 var nodemon = require('gulp-nodemon');
-var browserify = require('browserify');
 var jshint = require('gulp-jshint');
 var minifyCSS = require('gulp-cssnano');
 var bower = require('gulp-bower');

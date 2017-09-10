@@ -13,7 +13,7 @@ angular.module('app', ['ngResource', 'ngMaterial',
     'app.controllers', 'app.services'
   ])
   .controller('defaultController', function(
-    $rootScope, $scope, $state, $mdSidenav, Auth) {
+    $rootScope, $scope, $state, $mdSidenav) {
     $scope.init = () => {
       if (Auth.isLoggedIn()) {
         $rootScope.currentUser = Auth.getUser().data;

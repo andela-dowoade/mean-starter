@@ -4,20 +4,20 @@
   "description": "Some description",
   "main": "document-manager.js",
   "scripts": {
-    "test": "gulp test",
+    "test": "node index.js & istanbul cover jasmine tests/bend/app.spec.js && mv -f coverage bend_coverage && gulp test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andela-dowoade/DMS.git"
+    "url": "git+https://github.com/andela-dowoade/starter.git"
   },
   "keywords": [
   ],
   "author": "Owoade Dotun",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/andela-dowoade/DMS/issues"
+    "url": "https://github.com/andela-dowoade/starter/issues"
   },
-  "homepage": "https://github.com/andela-dowoade/DMS#readme",
+  "homepage": "https://github.com/andela-dowoade/starter#readme",
   "dependencies": {
     "async": "^1.5.0",
     "bcrypt-nodejs": "0.0.3",

@@ -38,7 +38,7 @@ var AuthCtrl = class {
           }
         }
       }
-    }).populate('role');
+    });
   }
 
   /*Use token to authorise user*/
